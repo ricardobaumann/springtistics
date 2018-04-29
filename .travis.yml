@@ -5,3 +5,4 @@ services:
 
 script:
   - docker build --target build .
+#This file can be extended with docker push and/or container deployment command for CI/CD.
