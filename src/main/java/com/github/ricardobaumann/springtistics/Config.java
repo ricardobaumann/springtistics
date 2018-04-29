@@ -11,7 +11,7 @@ public class Config {
 
     @Bean
     List<Transaction> transactions() {
-        return new ArrayList<>();
+        return new ArrayList<>(5000000);
     }
 
 }
